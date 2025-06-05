@@ -9,8 +9,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "postinstall": "npm run generate-typescript-geocoding && npm run generate-typescript-data",
-    "generate-typescript-geocoding": "rimraf -rf src/clients-geocoding-api && git clone https://github.com/PTV-Group/clients-geocoding-api src/clients-geocoding-api",
-    "generate-typescript-data": "rimraf -rf src/clients-data-api && git clone https://github.com/PTV-Group/clients-data-api src/clients-data-api"
+    "generate-typescript-geocoding": "rimraf -rf src/clients-geocoding-api && git clone https://github.com/ptv-logistics/clients-geocoding-api src/clients-geocoding-api",
+    "generate-typescript-data": "rimraf -rf src/clients-data-api && git clone https://github.com/ptv-logistics/clients-data-api src/clients-data-api"
   },
   "dependencies": {
     "@deck.gl/react": "^9.0.19",

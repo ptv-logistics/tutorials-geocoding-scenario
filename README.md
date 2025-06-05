@@ -133,10 +133,10 @@ export const useMapStyle = () => {
 
 # Geocoding
 
-To geocode addresses, use the [clients-geocoding-api](https://github.com/PTV-Group/clients-geocoding-api)
+To geocode addresses, use the [clients-geocoding-api](https://github.com/ptv-logistics/clients-geocoding-api)
 
 ```
- git clone https://github.com/PTV-Group/clients-geocoding-api
+ git clone https://github.com/ptv-logistics/clients-geocoding-api
 ```
 
 And use it in a component like `MyGeocoder`
